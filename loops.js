@@ -1,4 +1,5 @@
 function forLoop(array) {
+<<<<<<< HEAD
   for (var i=0; i<25;i++) {
     if (i===1) {
       array.push(`I am ${i} strange loop.`);
@@ -26,4 +27,9 @@ function doWhileLoop(array) {
   } while (array.length > 0 || maybeTrue())
 
   return array
+=======
+  for (let i = 0; i < 25; i++) {
+    console.log()
+ }
+>>>>>>> 249125b46d6669600e8098a094b3dae263aa0086
 }
